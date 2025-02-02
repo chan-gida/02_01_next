@@ -12,7 +12,7 @@ const Test = styled.div<{ bg: string, textColor: string }>`
 `
 
 // 2-textColorを追加
-const Button = ({ bg, textColor }) => {
+const Button = ({ bg = "white", textColor = "black"}) => {
     return <Test  bg={ bg } textColor={textColor}>Button</Test>;
 }
 
