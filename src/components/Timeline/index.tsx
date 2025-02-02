@@ -11,7 +11,7 @@ const TimeLine = () => {
         <textarea name="" id="" placeholder="本文を入力してください"></textarea>
         <Button size="large" variant="outlined">
           送信
-        </Button>
+        </Button> 
       </form>
 
       
